@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: sans-serif;
+}
+
+section{
+    margin: 200px auto;
+    flex-direction: column;
+    max-width: 400px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.6em;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .7);
+    padding: 20px;
+}
+    section form >*{
+        display: block;
+    }
+    section form input[type="submit"]{
+        width:100px;
+        height:25px;
+        margin-top: 10px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .result{
+        margin: 10px auto;
+        width: 50%;
+        border: 1px solid black;
+        height: 150px;
+
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+
+    }
+    .forCorrect{
+        color: green;
+    }
+    .forHigh{
+        color: blue;
+    }
+    .forLow{
+        color: red;
+    }
+
